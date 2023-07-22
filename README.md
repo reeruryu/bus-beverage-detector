@@ -13,9 +13,14 @@ $ source install/local_setup.bash
 
 terminal 1
 ```
+REM 1. 비디오 파일을 읽어서 ROS2 메시지로 변환하는 방법
 $ ros2 run bus_beverage_detection video_publisher 
 
 Video Absolute Path: {비디오_경로_입력하기}
+```
+```
+REM 2. 카메라에서 영상을 획득하여 ROS2 이미지 메시지로 변환하는 방법
+$ ros2 run image_tools cam2image
 ```
 
 terminal 2
